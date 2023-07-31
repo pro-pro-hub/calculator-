@@ -1,0 +1,238 @@
+/* By Pro-Expert */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: transparent;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(lightgoldenrodyellow, lightblue);
+}
+main {
+  background-color: black;
+  border-radius: 20px;
+  padding: 110px 15px 30px;
+}
+.output {
+  padding: 0 10px;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.text {
+  font-size: 6rem;
+  color: white;
+  text-align: left;
+}
+.inputA {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.inputB {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  gap: 12px;
+}
+.circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.double {
+  border-radius: 50px;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.left {
+  margin-left: -50%;
+}
+.gray {
+  background-color: rgba(97, 97, 97, 0.712);
+  color: white;
+  font-weight: 500;
+}
+.dot {
+  font-weight: 600;
+}
+.yellow {
+  background-color: orange;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white {
+  background-color: lightgray;
+  color: black;
+  position: relative;
+}
+.white:first-child {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+.negp,
+.negm {
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.negp {
+  top: 15px;
+  left: 15px;
+}
+.negs {
+  position: absolute;
+  top: 14px;
+  left: 26px;
+  transform: rotate(15deg);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.negm {
+  top: 16px;
+  left: 34px;
+  font-weight: 900;
+}
+
+.per0f,
+.per0s {
+  font-size: 1.4rem;
+  position: absolute;
+  font-weight: 900;
+}
+.per0f {
+  top: 16px;
+  left: 19px;
+}
+.pers {
+  position: absolute;
+  top: 14px;
+  left: 26px;
+  transform: rotate(15deg);
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.per0s {
+  top: 26px;
+  left: 32px;
+}
+
+.divdf,
+.divds {
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.divd {
+  margin: 2px 0;
+  width: 18px;
+  height: 5px;
+  background-color: white;
+}
+
+.slaf,
+.slas {
+  width: 20px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+}
+.slaf {
+  transform: rotate(45deg);
+}
+.slas {
+  transform: rotate(-45deg);
+}
+
+.sli {
+  width: 18px;
+  height: 5px;
+  background-color: white;
+}
+
+.crof,
+.cros {
+  background-color: white;
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+}
+.crof {
+  height: 18px;
+  width: 5px;
+}
+.cros {
+  width: 18px;
+  height: 5px;
+}
+
+.equf,
+.equs {
+  width: 18px;
+  height: 5px;
+  background-color: white;
+}
+.equs {
+  margin-top: 3px;
+}
+.clicked-white {
+  background-color: white;
+  transition: all 0.1s ease;
+}
+.clicked-gray {
+  background-color: lightgray;
+  transition: all 0.1s ease;
+}
+.clicked-yellow {
+  background-color: white;
+  transition: all 0.1s ease;
+}
+.clicked-equals {
+  background-color: rgba(241, 211, 156, 0.993);
+  transition: all 0.1s ease;
+}
+.turn-yellow {
+  background-color: orange;
+  transition: all 0.1s ease;
+}
+
+.seven {
+  font-size: 5.3rem;
+}
+.eight {
+  font-size: 5.2rem;
+}
+.nine {
+  font-size: 4.6rem;
+}
+.ten {
+  font-size: 4.2rem;
+}
+.eleven {
+  font-size: 4.1rem;
+}
+.twelve {
+  font-size: 3.8rem;
+}
+.huge {
+  font-size: 3.5rem;
+}

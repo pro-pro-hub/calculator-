@@ -1,0 +1,81 @@
+<!-- By Pro-Expert -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="/img/calculator-icon.png"
+      type="image/x-icon" />
+    <script src="style.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="output">
+        <span></span>
+        <p class="text" id="output">0</p>
+      </section>
+
+      <section class="input">
+        <div class="inputA">
+          <button class="circle white" id="clear">AC</button>
+
+          <button class="circle white" id="negative">
+            <span class="negp">+</span><span class="negs">/</span
+            ><span class="negm">_</span>
+          </button>
+
+          <button class="circle white" id="percentage">
+            <span class="per0f">0</span><span class="pers">/</span
+            ><span class="per0s">0</span>
+          </button>
+
+          <button class="circle yellow operator" data-op="/">
+            <span class="divdf"></span><span class="divd"></span
+            ><span class="divds"></span>
+          </button>
+
+          <button class="circle gray num" data-num="7">7</button>
+          <button class="circle gray num" data-num="8">8</button>
+          <button class="circle gray num" data-num="9">9</button>
+
+          <button class="circle yellow operator" data-op="*">
+            <span class="slaf"></span><span class="slas"></span>
+          </button>
+
+          <button class="circle gray num" data-num="4">4</button>
+          <button class="circle gray num" data-num="5">5</button>
+          <button class="circle gray num" data-num="6">6</button>
+
+          <button class="circle yellow operator" data-op="-">
+            <span class="sli"></span>
+          </button>
+
+          <button class="circle gray num" data-num="1">1</button>
+          <button class="circle gray num" data-num="2">2</button>
+          <button class="circle gray num" data-num="3">3</button>
+
+          <button class="circle yellow operator" data-op="+">
+            <span class="crof"></span><span class="cros"></span>
+          </button>
+        </div>
+
+        <div class="inputB">
+          <button class="double gray num" data-num="0">
+            <span class="left">0</span>
+          </button>
+          <button class="circle gray dot num" data-num=".">.</button>
+
+          <button class="circle yellow equals" id="equals">
+            <span class="equf"></span><span class="equs"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
